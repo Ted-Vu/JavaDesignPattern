@@ -3,6 +3,7 @@ package creational.prototype;
 // Java supports prototype pattern with Cloneable interface
 // However this is a design flaw in Java APIs according to Joshua Bloch
 // copy constructor should be the way to go
+
 public class Dog implements Cloneable {
 	private String name;
 
